@@ -4,6 +4,9 @@ import sqlite3
 import datetime
 import matplotlib.pyplot as plt
 import io
+import os
+bot.run(os.getenv("MTM4MzM5OTM0MDMyMzc2NjM3Mg.GzukFL.-BcX8ljREC7WUPiQsPUNdQdX3llYlAkK_HQe28"))
+
 
 intents = discord.Intents.default()
 intents.message_content = True
