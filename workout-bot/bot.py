@@ -4,8 +4,6 @@ import sqlite3
 import datetime
 import matplotlib.pyplot as plt
 import io
-import os
-bot.run(os.getenv("MTM4MzM5OTM0MDMyMzc2NjM3Mg.GzukFL.-BcX8ljREC7WUPiQsPUNdQdX3llYlAkK_HQe28"))
 
 
 intents = discord.Intents.default()
@@ -96,4 +94,6 @@ async def on_ready():
     weekly_report.start()
     monthly_leaderboard.start()
 
-bot.run('MTM4MzM5OTM0MDMyMzc2NjM3Mg.GzukFL.-BcX8ljREC7WUPiQsPUNdQdX3llYlAkK_HQe28')  # replace with your token
+import os
+bot.run(os.getenv("BOT_TOKEN"))
+  # replace with your token
